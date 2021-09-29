@@ -4,7 +4,19 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6831061957597469130
-    second: aro
+    second: bolinhas_0
+  - first:
+      213: 713762322953542611
+    second: bolinhas_1
+  - first:
+      213: 5800015382579095254
+    second: bolinhas_2
+  - first:
+      213: 2359696571865698161
+    second: bolinhas_3
+  - first:
+      213: 5866674688610652673
+    second: bolinhas_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,15 +130,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aro
+      name: bolinhas_0
       rect:
         serializedVersion: 2
-        x: 1569
-        y: 1835
-        width: 1820
-        height: 1821
+        x: 560
+        y: 4298
+        width: 426
+        height: 427
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,6 +146,90 @@ TextureImporter:
       bones: []
       spriteID: ac9184d68aeccce50800000000000000
       internalID: 6831061957597469130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolinhas_1
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 4298
+        width: 429
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db14b11d0bc7e900800000000000000
+      internalID: 713762322953542611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolinhas_2
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1835
+        width: 1820
+        height: 1821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6ad6ab24bcd7050800000000000000
+      internalID: 5800015382579095254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolinhas_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 578
+        width: 426
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f03c7a7835fb020800000000000000
+      internalID: 2359696571865698161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolinhas_4
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 578
+        width: 426
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d96bdb8d9a6150800000000000000
+      internalID: 5866674688610652673
       vertices: []
       indices: 
       edges: []
