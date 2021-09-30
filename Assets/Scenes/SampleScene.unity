@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 1565177600}
   - component: {fileID: 1565177599}
   - component: {fileID: 1565177604}
+  - component: {fileID: 1565177601}
   - component: {fileID: 1565177603}
   - component: {fileID: 1565177602}
   m_Layer: 0
@@ -366,7 +367,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
+  m_Sprite: {fileID: 5866674688610652673, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -391,6 +392,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565177601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565177598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb75e52e3060934ba8ec119516d0be2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  purpleSprite: {fileID: 0}
+  greenSprite: {fileID: 0}
+  yellowSprite: {fileID: 0}
+  redSprite: {fileID: 0}
 --- !u!58 &1565177602
 CircleCollider2D:
   m_ObjectHideFlags: 0
