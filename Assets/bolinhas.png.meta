@@ -4,19 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6831061957597469130
-    second: bolinhas_0
+    second: bola_verde
   - first:
       213: 713762322953542611
-    second: bolinhas_1
+    second: bola_amarela
   - first:
       213: 5800015382579095254
-    second: bolinhas_2
+    second: aro_amarelo
   - first:
       213: 2359696571865698161
-    second: bolinhas_3
+    second: aro_verde
   - first:
       213: 5866674688610652673
-    second: bolinhas_4
+    second: aro_vermelho
+  - first:
+      213: -2087716182758220824
+    second: aro_roxo
+  - first:
+      213: -2868634709578467919
+    second: bola_vermelha
+  - first:
+      213: 6287423844308245444
+    second: bola_roxa
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,15 +139,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolinhas_0
+      name: bola_verde
       rect:
         serializedVersion: 2
         x: 560
-        y: 4298
+        y: 4297
         width: 426
-        height: 427
+        height: 428
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,15 +160,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolinhas_1
+      name: bola_amarela
       rect:
         serializedVersion: 2
-        x: 1967
-        y: 4298
-        width: 429
-        height: 427
+        x: 1969
+        y: 4296
+        width: 428
+        height: 429
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,15 +181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolinhas_2
+      name: aro_amarelo
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 1835
-        width: 1820
-        height: 1821
+        x: 1060
+        y: 2909
+        width: 914
+        height: 914
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,15 +202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolinhas_3
+      name: aro_verde
       rect:
         serializedVersion: 2
-        x: 560
-        y: 578
-        width: 426
-        height: 426
+        x: 2929
+        y: 2909
+        width: 914
+        height: 914
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,15 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolinhas_4
+      name: aro_vermelho
       rect:
         serializedVersion: 2
-        x: 1812
-        y: 578
-        width: 426
-        height: 426
+        x: 1113
+        y: 1380
+        width: 914
+        height: 914
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +239,69 @@ TextureImporter:
       bones: []
       spriteID: 102d96bdb8d9a6150800000000000000
       internalID: 5866674688610652673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aro_roxo
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1380
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb9cd66131f603e0800000000000000
+      internalID: -2087716182758220824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bola_vermelha
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 578
+        width: 426
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b538392eef8038d0800000000000000
+      internalID: -2868634709578467919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bola_roxa
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 578
+        width: 426
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb50589caa614750800000000000000
+      internalID: 6287423844308245444
       vertices: []
       indices: 
       edges: []
