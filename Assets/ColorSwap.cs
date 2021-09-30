@@ -4,44 +4,64 @@ using UnityEngine;
 
 public class ColorSwap : MonoBehaviour
 {
-    private Sprite ballSprite;
-    private string ballColor;
+    private SpriteRenderer ballSprite;
+    public string ballColor;
 
     [SerializeField]
-    private Sprite purpleSprite;
-    [SerializeField]
-    private Sprite greenSprite;
-    [SerializeField]
-    private Sprite yellowSprite;
-    [SerializeField]
-    private Sprite redSprite;
-
+    private Sprite[] spriteArray;
     
     void Start()
     {
-        ballSprite = GetComponent<Sprite>();
+        ballSprite = GetComponent<SpriteRenderer>();
     }
 
-    void colorChange()
+    public void colorChange()
     {
+        colorChoose();
+
         if (ballColor == "purple")
         {
-            ballSprite = purpleSprite;
+            ballSprite.sprite = spriteArray[0];
         }
 
         if (ballColor == "green")
         {
-            ballSprite = greenSprite;
+            ballSprite.sprite = spriteArray[1];
         }
 
         if (ballColor == "yellow")
         {
-            ballSprite = yellowSprite;
+            ballSprite.sprite = spriteArray[2];
         }
 
         if (ballColor == "red")
         {
-            ballSprite = redSprite;
+            ballSprite.sprite = spriteArray[3];
+        }
+    }
+
+    private void colorChoose()
+    {
+        float randomValue = Random.Range(0, 4);
+
+        if (randomValue >= 0 && randomValue < 1)
+        {
+            ballColor = "purple";
+        }
+
+        if (randomValue >= 1 && randomValue < 2)
+        {
+            ballColor = "green";
+        }
+
+        if (randomValue >= 2 && randomValue < 3)
+        {
+            ballColor = "yellow";
+        }
+
+        if (randomValue >= 3 && randomValue < 4)
+        {
+            ballColor = "red";
         }
     }
 }
