@@ -11,7 +11,7 @@ public class wheelMove : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         rotationZ += Time.deltaTime * rotationSpeed;
