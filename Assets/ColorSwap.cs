@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColorSwap : MonoBehaviour
 {
-    private SpriteRenderer ballSprite;
+    private SpriteRenderer _ballSprite;
     public string ballColor;
 
     [SerializeField]
@@ -12,31 +12,30 @@ public class ColorSwap : MonoBehaviour
     
     void Start()
     {
-        ballSprite = GetComponent<SpriteRenderer>();
+        _ballSprite = GetComponent<SpriteRenderer>();
     }
 
     public void colorChange()
     {
         colorChoose();
 
-        if (ballColor == "purple")
+        switch (ballColor)
         {
-            ballSprite.sprite = spriteArray[0];
-        }
+            case "purple":
+                _ballSprite.sprite = spriteArray[0];
+                break;
 
-        if (ballColor == "green")
-        {
-            ballSprite.sprite = spriteArray[1];
-        }
+            case "green":
+                _ballSprite.sprite = spriteArray[1];
+                break;
 
-        if (ballColor == "yellow")
-        {
-            ballSprite.sprite = spriteArray[2];
-        }
+            case "yellow":
+                _ballSprite.sprite = spriteArray[2];
+                break;
 
-        if (ballColor == "red")
-        {
-            ballSprite.sprite = spriteArray[3];
+            case "red":
+                _ballSprite.sprite = spriteArray[3];
+                break;
         }
     }
 
@@ -46,22 +45,34 @@ public class ColorSwap : MonoBehaviour
 
         if (randomValue >= 0 && randomValue < 1)
         {
+            if (ballColor != "purple")
             ballColor = "purple";
+            else
+                colorChoose();
         }
 
         if (randomValue >= 1 && randomValue < 2)
         {
-            ballColor = "green";
+            if (ballColor != "green")
+                ballColor = "green";
+            else
+                colorChoose();
         }
 
         if (randomValue >= 2 && randomValue < 3)
         {
-            ballColor = "yellow";
+            if (ballColor != "yellow")
+                ballColor = "yellow";
+            else
+                colorChoose();
         }
 
         if (randomValue >= 3 && randomValue < 4)
         {
-            ballColor = "red";
+            if (ballColor != "red")
+                ballColor = "red";
+            else
+                colorChoose();
         }
     }
 }
