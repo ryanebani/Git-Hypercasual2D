@@ -13,6 +13,7 @@ public class ColorSwap : MonoBehaviour
     void Start()
     {
         _ballSprite = GetComponent<SpriteRenderer>();
+
     }
 
     public void colorChange()
@@ -74,5 +75,45 @@ public class ColorSwap : MonoBehaviour
             else
                 colorChoose();
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        switch (ballColor)
+        {
+            case "purple":
+                if (other.CompareTag("purple") || other.CompareTag("colourBall"))
+                {
+                    Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), other.GetComponent<Collider2D>());
+                }
+                else Destroy(gameObject);
+                break;
+
+            case "green":
+                if (other.CompareTag("green") || other.CompareTag("colourBall"))
+                {
+                    Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), other.GetComponent<Collider2D>());
+                }
+                else Destroy(gameObject);
+                break;
+
+            case "yellow":
+                if (other.CompareTag("yellow") || other.CompareTag("colourBall"))
+                {
+                    Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), other.GetComponent<Collider2D>());
+                }
+                else Destroy(gameObject);
+                break;
+
+            case "red":
+                if (other.CompareTag("red") || other.CompareTag("colourBall"))
+                {
+                    Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), other.GetComponent<Collider2D>());
+                }
+                else Destroy(gameObject); ;
+                break;
+        }
+
+        
     }
 }

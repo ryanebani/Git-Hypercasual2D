@@ -8,6 +8,7 @@ TagManager:
   - green
   - yellow
   - red
+  - colourBall
   layers:
   - Default
   - TransparentFX

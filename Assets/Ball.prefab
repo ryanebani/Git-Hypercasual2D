@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c7ec109b10dc14fbc0df6d3ee409bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: {x: 0, y: 18}
+  jumpForce: {x: 0, y: 16}
 --- !u!114 &7831645503983889966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fb75e52e3060934ba8ec119516d0be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballColor: 
+  ballColor: purple
   spriteArray:
   - {fileID: 6287423844308245444, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
   - {fileID: 6831061957597469130, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
