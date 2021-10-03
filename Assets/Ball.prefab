@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6287423844308245444, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
+  m_Sprite: {fileID: 2393043564930765888, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,10 +113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballColor: purple
   spriteArray:
-  - {fileID: 6287423844308245444, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: 6831061957597469130, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: 713762322953542611, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: -2868634709578467919, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
+  - {fileID: 2393043564930765888, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: 4802703554812116073, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: -1921096241087462290, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: -4616106535960490059, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
 --- !u!50 &7831645503983889964
 Rigidbody2D:
   serializedVersion: 4
