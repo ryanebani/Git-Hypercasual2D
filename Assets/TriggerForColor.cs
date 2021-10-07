@@ -22,6 +22,7 @@ public class TriggerForColor : MonoBehaviour
         if (other)
         {
             swapScript.colorChange();
+            Destroy(gameObject);
         }
     }
 }

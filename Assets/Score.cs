@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private ColorSwap swapScript;
+
     void Start()
     {
         
@@ -14,5 +15,14 @@ public class Score : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other)
+        {
+            swapScript.AddScore();
+            Destroy(gameObject);
+        }
     }
 }
