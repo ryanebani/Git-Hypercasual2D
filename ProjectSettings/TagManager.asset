@@ -9,6 +9,7 @@ TagManager:
   - yellow
   - red
   - colourBall
+  - starScore
   layers:
   - Default
   - TransparentFX
