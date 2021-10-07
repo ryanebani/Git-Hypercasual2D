@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerForColor : MonoBehaviour
+public class Score : MonoBehaviour
 {
     [SerializeField] private ColorSwap swapScript;
 
@@ -21,7 +21,7 @@ public class TriggerForColor : MonoBehaviour
     {
         if (other)
         {
-            swapScript.colorChange();
+            swapScript.AddScore();
             Destroy(gameObject);
         }
     }

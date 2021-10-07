@@ -4,16 +4,16 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4802703554812116073
-    second: verde
+    second: greenBall
   - first:
       213: -1921096241087462290
-    second: amarelo
+    second: yellowBall
   - first:
       213: -4616106535960490059
-    second: vermelho
+    second: redBall
   - first:
       213: 2393043564930765888
-    second: roxa
+    second: purpleBall
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: verde
+      name: greenBall
       rect:
         serializedVersion: 2
         x: 1868
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: amarelo
+      name: yellowBall
       rect:
         serializedVersion: 2
         x: 2733
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vermelho
+      name: redBall
       rect:
         serializedVersion: 2
         x: 1916
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roxa
+      name: purpleBall
       rect:
         serializedVersion: 2
         x: 2685

@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6287423844308245444, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
+  m_Sprite: {fileID: 2393043564930765888, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.71011376, y: 0.7133333}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c7ec109b10dc14fbc0df6d3ee409bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: {x: 0, y: 16}
+  jumpForce: {x: 0, y: 12}
 --- !u!114 &7831645503983889966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,10 +113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballColor: purple
   spriteArray:
-  - {fileID: 6287423844308245444, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: 6831061957597469130, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: 713762322953542611, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
-  - {fileID: -2868634709578467919, guid: 39af1470032b5484d9aeb9ef4b581460, type: 3}
+  - {fileID: 2393043564930765888, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: 4802703554812116073, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: -1921096241087462290, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
+  - {fileID: -4616106535960490059, guid: e7d5cfd8dbda5b54ea843d918e826b41, type: 3}
 --- !u!50 &7831645503983889964
 Rigidbody2D:
   serializedVersion: 4
@@ -151,6 +151,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.006}
   serializedVersion: 2
-  m_Radius: 0.42
+  m_Radius: 0.215
