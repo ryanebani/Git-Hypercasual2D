@@ -7,15 +7,16 @@ using UnityEngine.UI;
 public class Menu : MonoBehaviour
 {
     public string jogo;
+    public string telaInicial;
     void Start()
     {
         
     }
 
     
-    void Update()
+    public void Perdeu()
     {
-        
+        SceneManager.LoadScene(telaInicial);
     }
 
     public void StartGame()

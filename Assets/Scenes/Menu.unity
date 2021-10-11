@@ -861,6 +861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jogo: SampleScene
+  telaInicial: Menu
 --- !u!4 &790563581
 Transform:
   m_ObjectHideFlags: 0
