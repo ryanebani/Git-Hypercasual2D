@@ -83,15 +83,15 @@ public class ColorSwap : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag(ballColor) || other.CompareTag("colourBall")  || other.CompareTag("starScore"))
+        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore"))
         {
             //
         }
-        else Destroy(gameObject);
-        
-      //  {            
-      //      SceneManager.LoadScene("Morreu");
-      //  }
+        else
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene("Morreu");
+        }
              
     }
 
