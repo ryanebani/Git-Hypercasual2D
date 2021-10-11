@@ -31,7 +31,23 @@ public class SoundManager : MonoBehaviour
         AudioListener.pause = false;
     }
 
-    
+    UpdateButtonIcon();
+    AudioListener.pause = mute;
 }
+
+    private void UpdateButtonIcon()
+    {
+        if(mute == false)
+        {
+            musicaOff.enabled = false;
+            musicaOn.enabled = true;
+        }
+
+        else
+        {
+            musicaOff.enabled = true;
+            musicaOn.enabled = false;
+        }
+    }
 
 }
