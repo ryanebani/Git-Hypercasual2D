@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColorSwap : MonoBehaviour
 {
@@ -87,7 +88,11 @@ public class ColorSwap : MonoBehaviour
             //
         }
         else Destroy(gameObject);
-      
+        
+      //  {            
+      //      SceneManager.LoadScene("Morreu");
+      //  }
+             
     }
 
     public void AddScore()
