@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 {
     public string jogo;
     public string telaInicial;
+    public GameObject optionsMenu;
     void Start()
     {
         
@@ -29,4 +30,15 @@ public class Menu : MonoBehaviour
        // UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
+
+    public void Options()
+    {
+        optionsMenu.SetActive(true);
+    }
+
+    public void Back()
+    {
+        optionsMenu.SetActive(false);
+    }
+
 }
