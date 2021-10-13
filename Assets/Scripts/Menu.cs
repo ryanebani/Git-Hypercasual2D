@@ -9,6 +9,10 @@ public class Menu : MonoBehaviour
     public string jogo;
     public string telaInicial;
     public GameObject optionsMenu;
+
+    [SerializeField] SpriteRenderer playOff;
+    [SerializeField] SpriteRenderer configOff;
+    [SerializeField] SpriteRenderer quitOff;
     void Start()
     {
         
@@ -27,18 +31,24 @@ public class Menu : MonoBehaviour
 
     public void Quit()
     {
-       // UnityEditor.EditorApplication.isPlaying = false;
+       //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 
     public void Options()
     {
         optionsMenu.SetActive(true);
+        playOff.enabled = false;
+        configOff.enabled = false;
+        quitOff.enabled = false;
     }
 
     public void Back()
     {
         optionsMenu.SetActive(false);
+        playOff.enabled = true;
+        configOff.enabled = true;
+        quitOff.enabled = true;
     }
 
 }

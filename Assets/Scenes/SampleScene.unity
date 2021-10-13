@@ -292,7 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 112932141}
   offset: {x: 0, y: 0, z: -10}
-  smoothFactor: 1
+  smoothFactor: 0.1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -763,6 +763,14 @@ PrefabInstance:
       propertyPath: ball
       value: 
       objectReference: {fileID: 112932141}
+    - target: {fileID: 530127270, guid: 129cc0f560c93ee4c827851f33053c36, type: 3}
+      propertyPath: triggerDistance
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315717557219715053, guid: 129cc0f560c93ee4c827851f33053c36, type: 3}
+      propertyPath: m_TagString
+      value: green
+      objectReference: {fileID: 0}
     - target: {fileID: 3315717559226426011, guid: 129cc0f560c93ee4c827851f33053c36, type: 3}
       propertyPath: m_Name
       value: Wheel
@@ -881,6 +889,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7831645503983889966, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
+      propertyPath: camScript
+      value: 
+      objectReference: {fileID: 519420030}
     - target: {fileID: 7831645503983889967, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
       propertyPath: m_RootOrder
       value: 3

@@ -14,19 +14,21 @@ public class ObstaclesRecycle : MonoBehaviour
     private float spawnDistance;
 
     private Vector3 triggerHeight;
-    private Vector2 spawnHeight;
 
     void Start()
     {
+        Debug.Log(triggerHeight);
         obstacle = GetComponent<Transform>();
         SetTrigger();
+        Debug.Log(triggerHeight);
     }
 
     void Update()
     {
-        if (ball.position.y == triggerHeight.y)
+        if (ball.position.y >= triggerHeight.y && ball.position.y < (triggerHeight.y + 1))
         {
-            obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0); ;
+            Debug.Log("if foi feito");
+            obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0);
             SetTrigger(); 
         }
     }
@@ -35,6 +37,6 @@ public class ObstaclesRecycle : MonoBehaviour
     {
         triggerHeight = ball.position + new Vector3(0, triggerDistance, 0);
         return triggerHeight;
-        
+ 
     }
 }

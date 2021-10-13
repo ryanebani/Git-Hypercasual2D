@@ -14,7 +14,7 @@ public class SoundManager : MonoBehaviour
     
     void Start()
     {
-        
+        musicaOff.enabled = false;
     }
 
     public void OnButtonPress()
