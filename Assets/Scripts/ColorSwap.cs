@@ -19,7 +19,7 @@ public class ColorSwap : MonoBehaviour
     void Start()
     {
         _ballSprite = GetComponent<SpriteRenderer>();
-        camScript.enabled = true;
+        //camScript.enabled = true;
 
     }
 
