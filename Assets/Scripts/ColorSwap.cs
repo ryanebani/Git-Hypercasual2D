@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ColorSwap : MonoBehaviour
 {
-    [SerializeField]
-    private CameraFollow camScript;
+    //[SerializeField]
+    //private CameraFollow camScript;
 
     private SpriteRenderer _ballSprite;
     public string ballColor;
@@ -19,6 +19,7 @@ public class ColorSwap : MonoBehaviour
     void Start()
     {
         _ballSprite = GetComponent<SpriteRenderer>();
+        camScript.enabled = true;
 
     }
 
@@ -92,7 +93,7 @@ public class ColorSwap : MonoBehaviour
         }
         else
         {
-            camScript.enabled = false;
+            //camScript.enabled = false;
             Destroy(gameObject);
             SceneManager.LoadScene("Morreu");
         }
