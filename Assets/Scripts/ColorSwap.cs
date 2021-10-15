@@ -15,12 +15,14 @@ public class ColorSwap : MonoBehaviour
     private Sprite[] spriteArray;
 
     public int score = 0;
+
+    private bool invencible;
     
     void Start()
     {
+        invencible = false;
         _ballSprite = GetComponent<SpriteRenderer>();
         //camScript.enabled = true;
-
     }
 
     public void colorChange()
@@ -86,8 +88,9 @@ public class ColorSwap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (invencible == false)
 
-        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore"))
+        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall"))
         {
             //
         }
@@ -103,5 +106,20 @@ public class ColorSwap : MonoBehaviour
     public void AddScore()
     {
         score++;
+    }
+
+    public void ImortalHour()
+    {
+        invencible = true;
+        _ballSprite.sprite = spriteArray[4];
+        StartCoroutine(WaitAndMortal());     
+    }
+    
+
+    public IEnumerator WaitAndMortal()
+    {
+        yield return new WaitForSeconds(5);
+        invencible = false;
+        colorChange();
     }
 }
