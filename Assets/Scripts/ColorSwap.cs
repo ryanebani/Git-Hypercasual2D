@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ColorSwap : MonoBehaviour
 {
-    [SerializeField]
-    private CameraFollow camScript;
+    //[SerializeField]
+    //private CameraFollow camScript;
 
     private SpriteRenderer _ballSprite;
     public string ballColor;
@@ -15,11 +15,14 @@ public class ColorSwap : MonoBehaviour
     private Sprite[] spriteArray;
 
     public int score = 0;
+
+    private bool invencible;
     
     void Start()
     {
+        invencible = false;
         _ballSprite = GetComponent<SpriteRenderer>();
-
+        //camScript.enabled = true;
     }
 
     public void colorChange()
@@ -85,14 +88,15 @@ public class ColorSwap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (invencible == false)
 
-        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore"))
+        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall"))
         {
             //
         }
         else
         {
-            camScript.enabled = false;
+            //camScript.enabled = false;
             Destroy(gameObject);
             SceneManager.LoadScene("Morreu");
         }
@@ -102,5 +106,20 @@ public class ColorSwap : MonoBehaviour
     public void AddScore()
     {
         score++;
+    }
+
+    public void ImortalHour()
+    {
+        invencible = true;
+        _ballSprite.sprite = spriteArray[4];
+        StartCoroutine(WaitAndMortal());     
+    }
+    
+
+    public IEnumerator WaitAndMortal()
+    {
+        yield return new WaitForSeconds(5);
+        invencible = false;
+        colorChange();
     }
 }

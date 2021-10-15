@@ -10,6 +10,7 @@ TagManager:
   - red
   - colourBall
   - starScore
+  - powerBall
   layers:
   - Default
   - TransparentFX

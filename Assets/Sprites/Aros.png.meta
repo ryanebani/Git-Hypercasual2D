@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 69489cd240f386041b55d282d0999199
+guid: 39af1470032b5484d9aeb9ef4b581460
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5800015382579095254
+    second: aro_yellow
+  - first:
+      213: 2359696571865698161
+    second: aro_green
+  - first:
+      213: 5866674688610652673
+    second: aro_red
+  - first:
+      213: -2087716182758220824
+    second: aro_purple
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +53,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +125,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: aro_yellow
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2909
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6ad6ab24bcd7050800000000000000
+      internalID: 5800015382579095254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aro_green
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 2909
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f03c7a7835fb020800000000000000
+      internalID: 2359696571865698161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aro_red
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1380
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d96bdb8d9a6150800000000000000
+      internalID: 5866674688610652673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aro_purple
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 1380
+        width: 914
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb9cd66131f603e0800000000000000
+      internalID: -2087716182758220824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
