@@ -4,37 +4,40 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3834670176168507002
-    second: todas as sprites_0
+    second: aroamarelo
   - first:
       213: 4835389370704047603
-    second: todas as sprites_1
+    second: aroverde
   - first:
       213: -2934222288718606421
-    second: todas as sprites_2
+    second: bolaverde
   - first:
       213: -3929186645444090832
-    second: todas as sprites_3
+    second: bolaamarela
   - first:
       213: -2117168049793106140
-    second: todas as sprites_4
+    second: rodacolorida
   - first:
       213: -215933091287084513
-    second: todas as sprites_5
+    second: estrela
   - first:
       213: -6708346468588985477
-    second: todas as sprites_6
+    second: bolavermelha
   - first:
       213: -7927866787833272737
-    second: todas as sprites_7
+    second: bolaroxa
   - first:
       213: -7129817725935408142
-    second: todas as sprites_8
+    second: arovermelho
   - first:
       213: -5306826036885954174
-    second: todas as sprites_9
+    second: aroroxo
   - first:
       213: 8261840691049541477
-    second: todas as sprites_19
+    second: foguete
+  - first:
+      213: -6322825218924603019
+    second: "bolainvenc\xEDvel"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: todas as sprites_0
+      name: aroamarelo
       rect:
         serializedVersion: 2
         x: 81
@@ -156,7 +159,7 @@ TextureImporter:
         width: 254
         height: 255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_1
+      name: aroverde
       rect:
         serializedVersion: 2
         x: 602
@@ -177,7 +180,7 @@ TextureImporter:
         width: 254
         height: 255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_2
+      name: bolaverde
       rect:
         serializedVersion: 2
         x: 1055
@@ -198,7 +201,7 @@ TextureImporter:
         width: 79
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,15 +214,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_3
+      name: bolaamarela
       rect:
         serializedVersion: 2
-        x: 1317
+        x: 1316
         y: 914
-        width: 79
+        width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,7 +235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_4
+      name: rodacolorida
       rect:
         serializedVersion: 2
         x: 1567
@@ -240,7 +243,7 @@ TextureImporter:
         width: 165
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_5
+      name: estrela
       rect:
         serializedVersion: 2
         x: 1870
@@ -261,7 +264,7 @@ TextureImporter:
         width: 172
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_6
+      name: bolavermelha
       rect:
         serializedVersion: 2
         x: 1069
@@ -282,7 +285,7 @@ TextureImporter:
         width: 79
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -295,7 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_7
+      name: bolaroxa
       rect:
         serializedVersion: 2
         x: 1302
@@ -303,7 +306,7 @@ TextureImporter:
         width: 79
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,7 +319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_8
+      name: arovermelho
       rect:
         serializedVersion: 2
         x: 95
@@ -324,7 +327,7 @@ TextureImporter:
         width: 255
         height: 254
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,7 +340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_9
+      name: aroroxo
       rect:
         serializedVersion: 2
         x: 602
@@ -345,7 +348,7 @@ TextureImporter:
         width: 254
         height: 254
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,7 +361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: todas as sprites_19
+      name: foguete
       rect:
         serializedVersion: 2
         x: 885
@@ -366,7 +369,7 @@ TextureImporter:
         width: 502
         height: 328
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,6 +377,27 @@ TextureImporter:
       bones: []
       spriteID: 56f20ecd554f7a270800000000000000
       internalID: 8261840691049541477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bolainvenc\xEDvel"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 352
+        width: 109
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5791e1196ffc048a0800000000000000
+      internalID: -6322825218924603019
       vertices: []
       indices: 
       edges: []
