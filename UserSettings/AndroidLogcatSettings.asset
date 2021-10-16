@@ -1,13 +1,32 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "8l6lw89pkzi7ln6h",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "8l6lw89pkzi7ln6h",
+        "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+        "processId": 3501,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.android.settings",
+            "processId": 31178,
+            "exited": false
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 2228,
+            "exited": false
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 3501,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -41,9 +60,20 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 0.0,
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "Behavior": 0
     },
