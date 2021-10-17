@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     public string telaInicial;
     public GameObject optionsMenu;
     public GameObject creditsMenu;
+    public GameObject howtoplayMenu;
 
     [SerializeField] SpriteRenderer playOff;
     [SerializeField] SpriteRenderer configOff;
@@ -45,6 +46,7 @@ public class Menu : MonoBehaviour
     {
         optionsMenu.SetActive(false);
         creditsMenu.SetActive(false);
+        howtoplayMenu.SetActive(false);
         playOff.enabled = true;
         configOff.enabled = true;
         quitOff.enabled = true;
@@ -57,5 +59,13 @@ public class Menu : MonoBehaviour
         configOff.enabled = false;
         quitOff.enabled = false;
 
+    }
+
+    public void How()
+    {
+        howtoplayMenu.SetActive(true);
+        playOff.enabled = false;
+        configOff.enabled = false;
+        quitOff.enabled = false;
     }
 }
