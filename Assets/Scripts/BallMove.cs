@@ -9,6 +9,7 @@ public class BallMove : MonoBehaviour
     void Start()
     {
         _ballRigidbody = GetComponent<Rigidbody2D>();
+        Application.targetFrameRate = 60;
     }
 
     public void Jump()

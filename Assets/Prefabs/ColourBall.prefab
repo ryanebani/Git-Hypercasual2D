@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5700378925820285977}
   - component: {fileID: 5700378925820285958}
   - component: {fileID: 5700378925820285959}
-  - component: {fileID: 5700378925820285956}
+  - component: {fileID: 1824158505}
+  - component: {fileID: 917749756}
   m_Layer: 0
   m_Name: ColourBall
   m_TagString: colourBall
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: 4adeaf2d2b1c7417e89f026626d8264f, type: 3}
+  m_Sprite: {fileID: -2117168049793106140, guid: 52230045a07a0da4f96646a0bb71969d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,8 +100,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
---- !u!114 &5700378925820285956
+  m_Radius: 0.83
+--- !u!114 &1824158505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,7 +110,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 5700378925820285957}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f52082c14a92224fbb7e7fef53f36bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c99bd7d439af534ca6c2ebef99137d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 200
+--- !u!114 &917749756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5700378925820285957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab84301f83c92bc45b1d81b9d604baf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   swapScript: {fileID: 0}
+  triggerScript: {fileID: 0}
+  ball: {fileID: 0}
+  wheel: {fileID: 0}
+  colourDistance: 5
