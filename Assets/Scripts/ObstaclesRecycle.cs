@@ -15,6 +15,8 @@ public class ObstaclesRecycle : MonoBehaviour
 
     private Vector3 triggerHeight;
 
+    [SerializeField] private RecycleOutPrincipal recycleScript;
+
     void Start()
     {
         obstacle = GetComponent<Transform>();
@@ -39,6 +41,7 @@ public class ObstaclesRecycle : MonoBehaviour
         {
             obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0);
             SetTrigger();
+            recycleScript.SetWheelTrigger();
         }
     }
 

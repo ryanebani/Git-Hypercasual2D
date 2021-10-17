@@ -12,13 +12,13 @@ public class ScoreAndRecycle : MonoBehaviour
 
     public Vector3 triggerCoord;
     [SerializeField] private float starDistance;
+    public float disappearRange;
 
     void Start()
     {
         star = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (ball.position.y >= triggerCoord.y)
@@ -33,7 +33,7 @@ public class ScoreAndRecycle : MonoBehaviour
         {
             swapScript.AddScore();
             SetStarTrigger();
-            star.position = new Vector3(5, star.position.y, star.position.z);
+            star.position = new Vector3(disappearRange, star.position.y, star.position.z);
         }
     }
 

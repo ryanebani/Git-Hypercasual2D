@@ -18,12 +18,26 @@ public class ColorSwap : MonoBehaviour
     private int powerScore = 0;
 
     private bool invencible;
-    
+
+    [SerializeField]
+    private Transform colour1;
+    [SerializeField]
+    private Transform colour2;
+
     void Start()
     {
         invencible = false;
         _ballSprite = GetComponent<SpriteRenderer>();
         //camScript.enabled = true;
+    }
+
+    void Update()
+    {
+        if (invencible)
+        {
+            colour1.position = new Vector3 (10, 0, 0);
+            colour2.position = new Vector3(10, 0, 0);
+        }
     }
 
     public void colorChange()

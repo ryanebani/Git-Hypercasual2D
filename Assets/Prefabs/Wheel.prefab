@@ -494,8 +494,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 0}
-  triggerDistance: 16
-  spawnDistance: 8
+  triggerDistance: 20
+  spawnDistance: 10
+  recycleScript: {fileID: 0}
 --- !u!1 &3869874453553736090
 GameObject:
   m_ObjectHideFlags: 0
