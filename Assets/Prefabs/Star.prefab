@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 620934212300440664}
   - component: {fileID: 620934212300440665}
   - component: {fileID: 620934212300440666}
-  - component: {fileID: 620934212300440667}
+  - component: {fileID: 834686293}
   m_Layer: 0
   m_Name: Star
   m_TagString: starScore
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 69489cd240f386041b55d282d0999199, type: 3}
+  m_Sprite: {fileID: -215933091287084513, guid: 52230045a07a0da4f96646a0bb71969d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,16 +101,16 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7015, y: 0.6615}
+    oldSize: {x: 1.72, y: 1.63}
     newSize: {x: 1, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.65}
+  m_Size: {x: 1.65, y: 1.6}
   m_EdgeRadius: 0
---- !u!114 &620934212300440667
+--- !u!114 &834686293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +119,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 620934212300440644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a39a96c1179cd8459a72caffb1f4b7e, type: 3}
+  m_Script: {fileID: 11500000, guid: c68bb2fb204a7f24ba5b4ef472b30c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   swapScript: {fileID: 0}
+  ball: {fileID: 0}
+  wheel: {fileID: 0}
+  triggerCoord: {x: 0, y: 0, z: 0}
+  starDistance: 11

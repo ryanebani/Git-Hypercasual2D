@@ -494,8 +494,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 0}
-  triggerDistance: 8
-  spawnDistance: 6
+  triggerDistance: 16
+  spawnDistance: 8
 --- !u!1 &3869874453553736090
 GameObject:
   m_ObjectHideFlags: 0

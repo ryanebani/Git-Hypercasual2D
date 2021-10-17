@@ -23,11 +23,7 @@ public class ObstaclesRecycle : MonoBehaviour
 
     void Update()
     {
-        if (ball.position.y >= triggerHeight.y && ball.position.y < (triggerHeight.y + 1))
-        {
-            obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0);
-            SetTrigger(); 
-        }
+        spawnObs();
     }
 
     private Vector3 SetTrigger()
@@ -36,4 +32,14 @@ public class ObstaclesRecycle : MonoBehaviour
         return triggerHeight;
  
     }
+
+    private void spawnObs()
+    {
+        if (ball.position.y >= triggerHeight.y && ball.position.y < (triggerHeight.y + 1))
+        {
+            obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0);
+            SetTrigger();
+        }
+    }
+
 }

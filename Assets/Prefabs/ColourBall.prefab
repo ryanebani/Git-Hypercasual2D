@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5700378925820285977}
   - component: {fileID: 5700378925820285958}
   - component: {fileID: 5700378925820285959}
-  - component: {fileID: 5700378925820285956}
   - component: {fileID: 1824158505}
+  - component: {fileID: 917749756}
   m_Layer: 0
   m_Name: ColourBall
   m_TagString: colourBall
@@ -100,20 +100,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.37
---- !u!114 &5700378925820285956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5700378925820285957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f52082c14a92224fbb7e7fef53f36bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swapScript: {fileID: 0}
+  m_Radius: 0.83
 --- !u!114 &1824158505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,3 +114,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 200
+--- !u!114 &917749756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5700378925820285957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab84301f83c92bc45b1d81b9d604baf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swapScript: {fileID: 0}
+  triggerScript: {fileID: 0}
+  ball: {fileID: 0}
+  wheel: {fileID: 0}
+  colourDistance: 5

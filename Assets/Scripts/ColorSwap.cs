@@ -14,7 +14,8 @@ public class ColorSwap : MonoBehaviour
     [SerializeField]
     private Sprite[] spriteArray;
 
-    public int score = 0;
+    private int score = 0;
+    private int powerScore = 0;
 
     private bool invencible;
     
@@ -106,6 +107,12 @@ public class ColorSwap : MonoBehaviour
     public void AddScore()
     {
         score++;
+        powerScore++;
+        if (powerScore >= 10)
+        {
+            powerScore = 0;
+            ImortalHour();
+        }
     }
 
     public void ImortalHour()
