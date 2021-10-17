@@ -1708,6 +1708,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7831645503983889966, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
+      propertyPath: spriteArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: ce987632f74713346a3d2c1a61a1e961, type: 3}
     - target: {fileID: 7831645503983889967, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
       propertyPath: m_RootOrder
       value: 3
