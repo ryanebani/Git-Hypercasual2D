@@ -257,10 +257,10 @@ RectTransform:
   m_Father: {fileID: 181808834}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.09, y: 0.70000005}
-  m_AnchorMax: {x: 0.90000004, y: 0.78000003}
-  m_AnchoredPosition: {x: 1, y: 0.1000061}
-  m_SizeDelta: {x: -2, y: -2}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3, y: 384.10004}
+  m_SizeDelta: {x: 646, y: 126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418369531
 MonoBehaviour:
@@ -339,10 +339,10 @@ RectTransform:
   m_Father: {fileID: 181808834}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25062484}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.6000061}
-  m_SizeDelta: {x: -148, y: -162}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 200.00003, y: -201.10004}
+  m_SizeDelta: {x: 252, y: 237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &472557712
 MonoBehaviour:
@@ -706,8 +706,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631541158}
   m_LocalRotation: {x: -0, y: -0, z: 0.70746875, w: -0.7067447}
-  m_LocalPosition: {x: 0.0636, y: -0.0729, z: 0}
-  m_LocalScale: {x: 0.5495167, y: 0.5058371, z: 1}
+  m_LocalPosition: {x: -0.0502, y: 0.1447, z: 0}
+  m_LocalScale: {x: 0.6417108, y: 0.59070295, z: 1.1677732}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -843,10 +843,10 @@ RectTransform:
   m_Father: {fileID: 181808834}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.25062484}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -3.699997, y: -1.6000061}
-  m_SizeDelta: {x: -154, y: -162}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 596.30005, y: -201.10004}
+  m_SizeDelta: {x: 246, y: 237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908448478
 MonoBehaviour:
@@ -1081,6 +1081,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jogo: SampleScene
   telaInicial: Menu
+  optionsMenu: {fileID: 0}
+  creditsMenu: {fileID: 0}
+  howtoplayMenu: {fileID: 0}
+  playOff: {fileID: 0}
+  configOff: {fileID: 0}
+  quitOff: {fileID: 0}
 --- !u!4 &1237865419
 Transform:
   m_ObjectHideFlags: 0

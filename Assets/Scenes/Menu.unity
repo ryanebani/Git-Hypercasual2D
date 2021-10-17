@@ -1751,10 +1751,10 @@ RectTransform:
   m_Father: {fileID: 654535092}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.44, y: 555}
-  m_SizeDelta: {x: 758.22, y: 120.99}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -4.4400024, y: -245}
+  m_SizeDelta: {x: 758.22, y: 120.98999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814686275
 MonoBehaviour:
@@ -1950,10 +1950,10 @@ RectTransform:
   m_Father: {fileID: 404922475}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.3999939, y: -33}
-  m_SizeDelta: {x: -43.85, y: -0.01}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -56.139008}
+  m_SizeDelta: {x: 756.15, y: 1369.1699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891057475
 MonoBehaviour:
@@ -1977,7 +1977,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d1fe0bc1ac9782f4c8f875e1a7cea6d7, type: 3}
-    m_FontSize: 60
+    m_FontSize: 55
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1989,7 +1989,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Bouncy Colors\nfoi inspirado no jogo Color Switch.\nFeito pelos alunos
-    \nNicole Martins - RA: 21420456 \nRyan Ebani - RA: 21468304\n\nBackgrounds, fontes
+    \nNicole Martins - RA: 21420456 \nRyan Ebani - RA: 21468304\nBackgrounds, fontes
     e \xEDcones dos bot\xF5es tirados do site assetstore.unity.com.\nPrograma\xE7\xE3o
     feita por Ryan Ebani. Demais sprites, sons e programa\xE7\xE3o da UI feitos por
     Nicole Martins."
@@ -2523,10 +2523,10 @@ RectTransform:
   m_Father: {fileID: 654535092}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 316, y: 746.53}
-  m_SizeDelta: {x: 104.43, y: 106.95}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -105, y: -101}
+  m_SizeDelta: {x: 104.42999, y: 106.94995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255436779
 MonoBehaviour:
@@ -3030,11 +3030,11 @@ RectTransform:
   m_Father: {fileID: 404922475}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 316, y: 746.53}
-  m_SizeDelta: {x: 104.43, y: 106.95}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -104, y: -110}
+  m_SizeDelta: {x: 104.42999, y: 106.94995}
+  m_Pivot: {x: 0.5, y: 0.49999958}
 --- !u!114 &1437654232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3163,7 +3163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.435, y: -167.75}
+  m_AnchoredPosition: {x: -4.4349976, y: -167.75}
   m_SizeDelta: {x: 758.21, y: 1204.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1664750893
@@ -3244,7 +3244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000021458, y: 0.000020266}
+  m_AnchoredPosition: {x: -0.0000021458, y: 0.000030517578}
   m_SizeDelta: {x: 92.37, y: 92.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1681126641
@@ -3322,8 +3322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 192.59, y: -265.58002}
-  m_SizeDelta: {x: 220.56, y: 126.08}
+  m_AnchoredPosition: {x: 181.34, y: -265.58002}
+  m_SizeDelta: {x: 243.07, y: 126.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761428299
 MonoBehaviour:

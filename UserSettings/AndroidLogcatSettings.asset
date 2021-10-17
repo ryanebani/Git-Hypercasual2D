@@ -3,51 +3,51 @@
     "m_SelectedPackage": {
         "deviceId": "8l6lw89pkzi7ln6h",
         "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-        "processId": 29461,
+        "processId": 2071,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.android.settings",
-            "processId": 31178,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 2228,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 3501,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 25319,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 27977,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 28851,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 29461,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 32471,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.miui.home",
+            "processId": 1738,
+            "exited": false
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 2071,
             "exited": false
         }
     ],
