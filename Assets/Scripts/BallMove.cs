@@ -6,6 +6,7 @@ public class BallMove : MonoBehaviour
 {
     private Rigidbody2D _ballRigidbody;
     [SerializeField] Vector2 jumpForce;
+
     void Start()
     {
         _ballRigidbody = GetComponent<Rigidbody2D>();
