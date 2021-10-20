@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ColorSwap : MonoBehaviour
 {
@@ -24,8 +25,12 @@ public class ColorSwap : MonoBehaviour
     [SerializeField]
     private Transform colour2;
 
+    [SerializeField]
+    private Text scoreText;
+
     void Start()
     {
+        score = 0;
         invencible = false;
         _ballSprite = GetComponent<SpriteRenderer>();
         //camScript.enabled = true;
@@ -127,6 +132,8 @@ public class ColorSwap : MonoBehaviour
             powerScore = 0;
             ImortalHour();
         }
+
+        scoreText.text = "Pontos: " + score;
     }
 
     public void ImortalHour()
