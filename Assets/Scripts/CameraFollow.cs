@@ -20,9 +20,6 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private float limitOff;
 
-    public bool isCam;
-
-
     private void FixedUpdate()
     {
             Follow();

@@ -14,6 +14,8 @@ public class ColourAndRecycle : MonoBehaviour
     [SerializeField] private float colourDistance;
     private Vector3 colourCoord;
 
+    [SerializeField] private AudioSource colorSong;
+
     
 
     void Start()
@@ -35,6 +37,7 @@ public class ColourAndRecycle : MonoBehaviour
     {
         if (other)
         {
+            colorSong.Play();
             swapScript.colorChange();
             colour.position = new Vector3(triggerScript.disappearRange, colour.position.y, colour.position.z);
         }

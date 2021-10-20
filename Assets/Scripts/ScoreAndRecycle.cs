@@ -14,6 +14,9 @@ public class ScoreAndRecycle : MonoBehaviour
     [SerializeField] private float starDistance;
     public float disappearRange;
 
+    [SerializeField]
+    private AudioSource catchStar;
+
     void Start()
     {
         star = GetComponent<Transform>();
@@ -31,6 +34,7 @@ public class ScoreAndRecycle : MonoBehaviour
     {
         if (other)
         {
+            catchStar.Play();
             swapScript.AddScore();
             SetStarTrigger();
             star.position = new Vector3(disappearRange, star.position.y, star.position.z);

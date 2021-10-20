@@ -28,6 +28,12 @@ public class ColorSwap : MonoBehaviour
     [SerializeField]
     private Text scoreText;
 
+    [SerializeField]
+    private AudioSource becomeRocket;
+
+    [SerializeField]
+    private AudioSource crackWheel;
+
     void Start()
     {
         score = 0;
@@ -109,18 +115,31 @@ public class ColorSwap : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (invencible == false)
+        {
+            if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall"))
+            {
+                //
+            }
+            else
+            {
+                //camScript.enabled = false;
+                Destroy(gameObject);
+                SceneManager.LoadScene("Morreu");
+            }
+        }
 
-        if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall"))
+        if (invencible)
         {
-            //
+            if (other.CompareTag("purple") || other.CompareTag("green") || other.CompareTag("yellow") || other.CompareTag("red"))
+            {
+                if (!crackWheel.isPlaying)
+                {
+                    crackWheel.Play();
+                }
+            }
         }
-        else
-        {
-            //camScript.enabled = false;
-            Destroy(gameObject);
-            SceneManager.LoadScene("Morreu");
-        }
-             
+
+
     }
 
     public void AddScore()
@@ -139,6 +158,7 @@ public class ColorSwap : MonoBehaviour
     public void ImortalHour()
     {
         invencible = true;
+        becomeRocket.Play();
         _ballSprite.sprite = spriteArray[4];
         StartCoroutine(WaitAndMortal());     
     }
