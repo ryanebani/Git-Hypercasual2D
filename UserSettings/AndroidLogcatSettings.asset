@@ -1,43 +1,13 @@
 {
     "m_SelectedDeviceId": "8l6lw89pkzi7ln6h",
     "m_SelectedPackage": {
-        "deviceId": "8l6lw89pkzi7ln6h",
-        "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-        "processId": 2071,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 25319,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 27977,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 28851,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 29461,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 32471,
-            "exited": true
-        },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.miui.home",
@@ -47,7 +17,37 @@
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 2071,
+            "processId": 26099,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 26518,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 27271,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 28117,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 28637,
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.whatsapp",
+            "processId": 19849,
             "exited": false
         }
     ],
