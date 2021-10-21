@@ -12,9 +12,14 @@ public class Menu : MonoBehaviour
     public GameObject creditsMenu;
     public GameObject howtoplayMenu;
 
-    [SerializeField] SpriteRenderer playOff;
-    [SerializeField] SpriteRenderer configOff;
-    [SerializeField] SpriteRenderer quitOff;
+    [SerializeField]
+    SpriteRenderer playOff;
+
+    [SerializeField]
+    SpriteRenderer configOff;
+    
+    [SerializeField]
+    SpriteRenderer quitOff;
           
     public void Perdeu()
     {

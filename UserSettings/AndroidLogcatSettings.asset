@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "8l6lw89pkzi7ln6h",
     "m_SelectedPackage": {
-        "deviceId": "8l6lw89pkzi7ln6h",
-        "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-        "processId": 20040,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -17,80 +17,32 @@
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 27271,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 28117,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 28637,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.whatsapp",
-            "processId": 19849,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 31215,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 1727,
-            "exited": true
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.unity3d.mobileremote",
-            "processId": 2515,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 3123,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
-            "processId": 4749,
-            "exited": false
-        },
-        {
-            "deviceId": "8l6lw89pkzi7ln6h",
-            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 7659,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 19043,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 19491,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "8l6lw89pkzi7ln6h",
             "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
             "processId": 20040,
-            "exited": false
+            "exited": true
+        },
+        {
+            "deviceId": "8l6lw89pkzi7ln6h",
+            "name": "com.TrupeLaranjinha.BouncyColors.com.unity.template.mobile2D",
+            "processId": 18858,
+            "exited": true
         }
     ],
     "m_Tags": {
