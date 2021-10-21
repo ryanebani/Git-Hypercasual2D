@@ -38,9 +38,6 @@ public class ColorSwap : MonoBehaviour
     [SerializeField]
     private AudioSource becomeRocket;
 
-    [SerializeField]
-    private AudioSource crackWheel;
-
     void Start()
     {
         score = 0;
@@ -135,7 +132,7 @@ public class ColorSwap : MonoBehaviour
             }
         }
 
-        if (invencible)
+        /*if (invencible)
         {
             if (other.CompareTag("purple") || other.CompareTag("green") || other.CompareTag("yellow") || other.CompareTag("red"))
             {
@@ -144,7 +141,7 @@ public class ColorSwap : MonoBehaviour
                     crackWheel.Play();
                 }
             }
-        }
+        }*/
 
 
     }
@@ -155,7 +152,7 @@ public class ColorSwap : MonoBehaviour
         powerScore++;
         hardScore++;
 
-        if (powerScore >= 3)
+        if (powerScore >= 10)
         {
             powerScore = 0;
             ImortalHour();

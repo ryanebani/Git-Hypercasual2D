@@ -18,6 +18,8 @@ public class RecycleOutPrincipal : MonoBehaviour
 
     [SerializeField] private wheelMove wheelMoveScript;
 
+    public bool isALimit;
+
     void Start()
     {
         myWheel = GetComponent<Transform>();
@@ -26,7 +28,7 @@ public class RecycleOutPrincipal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ball.position.y >= wheelTrigger.y)
+        if (ball.position.y >= wheelTrigger.y && isALimit == false)
         {
             wheelMoveScript.SetSpeed();
             myWheel.position = principalWheel.position + new Vector3(0, wheelDistance, 0);

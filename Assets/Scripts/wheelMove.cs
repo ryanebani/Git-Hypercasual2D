@@ -21,6 +21,8 @@ public class wheelMove : MonoBehaviour
     [SerializeField] private float moreSpeed;
 
     public bool limitWheel;
+
+    [SerializeField] private SpriteRenderer[] aros;
     void Start()
     {
         SetSpeed();
@@ -66,10 +68,9 @@ public class wheelMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-       if (colorScript.invencible)
+        if (colorScript.invencible)
         {
             rainbowExplosion.Play();
         }
     }
-
 }
