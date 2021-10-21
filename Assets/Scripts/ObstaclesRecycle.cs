@@ -16,6 +16,7 @@ public class ObstaclesRecycle : MonoBehaviour
     private Vector3 triggerHeight;
 
     [SerializeField] private RecycleOutPrincipal recycleScript;
+    [SerializeField] private wheelMove wheelMoveScript;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class ObstaclesRecycle : MonoBehaviour
     {
         if (ball.position.y >= triggerHeight.y && ball.position.y < (triggerHeight.y + 1))
         {
+            wheelMoveScript.SetSpeed();
             obstacle.position = triggerHeight + new Vector3(0, spawnDistance, 0);
             SetTrigger();
             recycleScript.SetWheelTrigger();

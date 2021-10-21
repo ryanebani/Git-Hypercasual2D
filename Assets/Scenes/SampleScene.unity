@@ -1587,6 +1587,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1225433793 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3869874453176230139, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+  m_PrefabInstance: {fileID: 3869874453951925214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c99bd7d439af534ca6c2ebef99137d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1280449598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5700378925820285957, guid: b07780abccbf39f4c8d97c065c362fef, type: 3}
@@ -2264,6 +2275,7 @@ MonoBehaviour:
   principalWheel: {fileID: 859131169}
   wheelDistance: -20
   outCam: 1
+  wheelMoveScript: {fileID: 0}
 --- !u!114 &1617868328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,6 +2289,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 2000
+  minRandom: 0
+  maxRandom: 0
+  moreSpeed: 0
+  limitWheel: 1
 --- !u!4 &1617868329
 Transform:
   m_ObjectHideFlags: 0
@@ -3053,7 +3069,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c99bd7d439af534ca6c2ebef99137d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 100
+  rotationSpeed: 0
+  minRandom: 75
+  maxRandom: 125
+  moreSpeed: 25
+  limitWheel: 0
 --- !u!1 &3869874453330907157
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,6 +3108,7 @@ MonoBehaviour:
   principalWheel: {fileID: 859131169}
   wheelDistance: 10
   outCam: 1
+  wheelMoveScript: {fileID: 3869874453330907155}
 --- !u!212 &3869874453367493024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3245,6 +3266,10 @@ PrefabInstance:
       propertyPath: recycleScript
       value: 
       objectReference: {fileID: 3869874453330907158}
+    - target: {fileID: 1997141662111095744, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+      propertyPath: wheelMoveScript
+      value: 
+      objectReference: {fileID: 1225433793}
     - target: {fileID: 3869874453176230138, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3287,6 +3312,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869874453176230138, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869874453176230139, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+      propertyPath: maxRandom
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869874453176230139, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+      propertyPath: minRandom
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869874453176230139, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+      propertyPath: moreSpeed
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869874453176230139, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
+      propertyPath: rotationSpeed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3869874453176230141, guid: 4a4f65be782168943be4b4c115fe8695, type: 3}
@@ -3592,6 +3633,14 @@ PrefabInstance:
       propertyPath: becomeRocket
       value: 
       objectReference: {fileID: 1071911847}
+    - target: {fileID: 7831645503983889966, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
+      propertyPath: wheelMoveScript
+      value: 
+      objectReference: {fileID: 1225433793}
+    - target: {fileID: 7831645503983889966, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
+      propertyPath: wheelMoveScript1
+      value: 
+      objectReference: {fileID: 3869874453330907155}
     - target: {fileID: 7831645503983889966, guid: 0f34b5951e7ab17499d018641cfadafd, type: 3}
       propertyPath: spriteArray.Array.data[4]
       value: 

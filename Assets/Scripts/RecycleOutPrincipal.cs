@@ -10,13 +10,13 @@ public class RecycleOutPrincipal : MonoBehaviour
     private Transform principalWheel;
     private Transform myWheel;
 
-    
-
     private Vector3 wheelTrigger;
     [SerializeField]
     private float wheelDistance;
     [SerializeField]
     private float outCam;
+
+    [SerializeField] private wheelMove wheelMoveScript;
 
     void Start()
     {
@@ -28,6 +28,7 @@ public class RecycleOutPrincipal : MonoBehaviour
     {
         if (ball.position.y >= wheelTrigger.y)
         {
+            wheelMoveScript.SetSpeed();
             myWheel.position = principalWheel.position + new Vector3(0, wheelDistance, 0);
         }
     }

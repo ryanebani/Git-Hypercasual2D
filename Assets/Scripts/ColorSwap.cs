@@ -17,8 +17,12 @@ public class ColorSwap : MonoBehaviour
 
     private int score = 0;
     private int powerScore = 0;
+    private int hardScore = 0;
 
     private bool invencible;
+
+    [SerializeField] private wheelMove wheelMoveScript;
+    [SerializeField] private wheelMove wheelMoveScript1;
 
     [SerializeField]
     private Transform colour1;
@@ -146,10 +150,19 @@ public class ColorSwap : MonoBehaviour
     {
         score++;
         powerScore++;
+        hardScore++;
+
         if (powerScore >= 10)
         {
             powerScore = 0;
             ImortalHour();
+        }
+
+        if (hardScore >= 7)
+        {
+            hardScore = 0;
+            wheelMoveScript.AddRange();
+            wheelMoveScript1.AddRange();
         }
 
         scoreText.text = "Pontos: " + score;
