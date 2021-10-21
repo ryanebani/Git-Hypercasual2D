@@ -5,6 +5,12 @@ using UnityEngine;
 public class wheelMove : MonoBehaviour
 {
     [SerializeField] private float rotationSpeed;
+
+    [SerializeField]
+    private ParticleSystem rainbowExplosion = null;
+
+    [SerializeField]
+    private ColorSwap colorScript;
     private float randomSpeed;
 
     private float rotationZ;
@@ -57,4 +63,13 @@ public class wheelMove : MonoBehaviour
         minRandom += moreSpeed;
         maxRandom += moreSpeed;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+       if (colorScript.invencible)
+        {
+            rainbowExplosion.Play();
+        }
+    }
+
 }

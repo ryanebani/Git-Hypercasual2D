@@ -15,11 +15,14 @@ public class ColorSwap : MonoBehaviour
     [SerializeField]
     private Sprite[] spriteArray;
 
+    [SerializeField]
+    private ParticleSystem fireStar = null;
+
     private int score = 0;
     private int powerScore = 0;
     private int hardScore = 0;
 
-    private bool invencible;
+    public bool invencible;
 
     [SerializeField] private wheelMove wheelMoveScript;
     [SerializeField] private wheelMove wheelMoveScript1;
@@ -120,7 +123,7 @@ public class ColorSwap : MonoBehaviour
     {
         if (invencible == false)
         {
-            if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall"))
+            if (other.CompareTag(ballColor) || other.CompareTag("colourBall") || other.CompareTag("starScore") || other.CompareTag("powerBall") || other.CompareTag("Explode"))
             {
                 //
             }
@@ -152,7 +155,7 @@ public class ColorSwap : MonoBehaviour
         powerScore++;
         hardScore++;
 
-        if (powerScore >= 10)
+        if (powerScore >= 3)
         {
             powerScore = 0;
             ImortalHour();
@@ -173,6 +176,7 @@ public class ColorSwap : MonoBehaviour
         invencible = true;
         becomeRocket.Play();
         _ballSprite.sprite = spriteArray[4];
+        fireStar.Play();
         StartCoroutine(WaitAndMortal());     
     }
     
@@ -181,6 +185,7 @@ public class ColorSwap : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         invencible = false;
+        fireStar.Stop();
         colorChange();
     }
 }
